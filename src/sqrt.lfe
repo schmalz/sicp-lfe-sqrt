@@ -13,7 +13,7 @@
 
 (defun good-enough? [guess x]
   (< (absv (- (square guess)
-             x))
+              x))
      0.0001))
 
 (defun improve [guess x]
